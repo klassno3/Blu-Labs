@@ -21,7 +21,7 @@ const Home = () => {
           </div>
           <div className="flex flex-col sm:flex-row items-center   gap-5 md:gap-10">
 
-              <Link to='book' smooth={ true } offset={-150}>
+              <Link to='contact' smooth={ true } offset={-150}>
 
               <Button color="primary" >
             Get In Touch
@@ -29,7 +29,7 @@ const Home = () => {
               </Link>
                 <Link to='about' smooth={ true } offset={-150}>
               <Button icon  color="secondary">
-               Learn more
+              Submit
               </Button>
               </Link>
           </div>

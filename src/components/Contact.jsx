@@ -4,7 +4,7 @@ import { useFormik } from "formik";
 import Input from './Input';
 import  Button  from './Button';
 import TextArea from './TextArea';
-
+// import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import {FaMailBulk,FaPhone} from "react-icons/fa"
 import {FaLocationDot} from "react-icons/fa6"
 const Contact = () => {
@@ -44,8 +44,8 @@ const Contact = () => {
     
       <div className="flex flex-col md:flex-row justify-center gap-8 w-10/12 mx-auto">
 
-        <div className="w-full flex flex-col gap-2 font-poppins">
-          <div className="flex flex-col gap-1">
+        <div className="w-full flex flex-col gap-3 font-poppins">
+          <div className="flex flex-col gap-2">
 
           <h5 className="text-tertiary-100 text-xl md:text-3xl font-semibold">Need additional information?</h5>
          
@@ -62,24 +62,11 @@ const Contact = () => {
           </div>
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </link>
-<ul class="flex">
-  <li>
-    <a href="#" className="w-10 h-10 bg-white text-center text-gray-900 text-2xl mx-2 block rounded-full flex justify-center items-center relative overflow-hidden border border-white z-10 hover:text-white transform transition duration-500">
-      <i class="fab fa-facebook-f icon"></i>
-    </a>
-  </li>
-  <li>
-    <a href="#" className="w-10 h-10 bg-white text-center text-gray-900 text-2xl mx-2 block rounded-full flex justify-center items-center relative overflow-hidden border border-white z-10 hover:text-white transform transition duration-500">
-      <i class="fab fa-twitter icon"></i>
-    </a>
-  </li>
-  <li>
-    <a href="#" className="w-10 h-10 bg-white text-center text-gray-900 text-2xl mx-2 block rounded-full flex justify-center items-center relative overflow-hidden border border-white z-10 hover:text-white transform transition duration-500">
-      <i class="fab fa-linkedin-in icon"></i>
-    </a>
-  </li>
-</ul>
-
+ {/* <div className="flex gap-4  text-tertiary-100">
+            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaFacebook size={25}/></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaInstagram  size={25}/></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaLinkedin  size={25}/></a>
+          </div> */}
 
 
 

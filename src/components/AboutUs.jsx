@@ -51,7 +51,7 @@ const AboutUs = () => {
             <div className="flex flex-col gap-2 items-center">
 
           <h3 className="text-lg uppercase md:text-2xl font-inter font-semibold text-primary-300">Vission</h3>
-          <p className=" text-tertiary-100/80 text-center  font-poppins text-sm md:text-base ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis excepturi consequuntur alias totam dignissimos, repellat provident! Expedita dicta modi laudantium maiores, molestias doloremque
+          <p className=" text-tertiary-100/80 text-center  font-poppins text-sm lg:text-base ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis excepturi consequuntur alias totam dignissimos, repellat provident! Expedita dicta modi laudantium maiores, molestias doloremque
            </p>
             </div>
 </div>
@@ -59,7 +59,7 @@ const AboutUs = () => {
             <div className="flex flex-col gap-2 items-center">
 
           <h3 className="text-lg uppercase md:text-2xl font-inter font-semibold text-primary-300">Mission</h3>
-          <p className=" text-tertiary-100/80 text-center  font-poppins text-sm md:text-base ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis excepturi consequuntur alias totam dignissimos, repellat provident! Expedita dicta modi laudantium maiores, molestias doloremque
+          <p className=" text-tertiary-100/80 text-center  font-poppins text-sm lg:text-base ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis excepturi consequuntur alias totam dignissimos, repellat provident! Expedita dicta modi laudantium maiores, molestias doloremque
            </p>
             </div>
 </div>
@@ -67,7 +67,7 @@ const AboutUs = () => {
             <div className="flex flex-col gap-2 items-center">
 
           <h3 className="text-lg uppercase md:text-2xl font-inter font-semibold text-primary-300">Value</h3>
-          <p className=" text-tertiary-100/80 text-center  font-poppins text-sm md:text-base ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis excepturi consequuntur alias totam dignissimos, repellat provident! Expedita dicta modi laudantium maiores, molestias doloremque
+          <p className=" text-tertiary-100/80 text-center  font-poppins text-sm lg:text-base ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis excepturi consequuntur alias totam dignissimos, repellat provident! Expedita dicta modi laudantium maiores, molestias doloremque
            </p>
             </div>
 </div>

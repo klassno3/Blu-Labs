@@ -4,7 +4,8 @@ import { useFormik } from "formik";
  import * as Yup from 'yup';
 import Logo from '../images/Logo-white.svg'
 import { FaMailBulk, FaPhone } from 'react-icons/fa'
-import {FaLocationDot} from "react-icons/fa6"
+import { FaLocationDot } from "react-icons/fa6"
+// import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import Input  from './Input'
 import Button from './Button'
 const Footer = () => {
@@ -37,7 +38,7 @@ const [email,setEmail]=useState("")
   } );
   return (
 
-    <div className='bg-primary-300 py-7 mt-28'>
+    <div className='bg-primary-300 py-5 mt-28'>
       <div className="w-11/12 md:w-10jbjjh1/12 mx-auto text-sm sm:text-base ">
         <Link to="home" activeClass="current" smooth={ true } offset={ -150 } className='cursor-pointer'>
           <img className='pt-3 w-20 md:w-28' src={ Logo } alt="" />
@@ -63,11 +64,16 @@ const [email,setEmail]=useState("")
                   <p className="">+251908555657</p>
                 </div>
               </div>
+                 {/* add social medial links   */}
+        {/* <div className="flex gap-4  text-secondary-200">
+            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaFacebook size={25}/></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaInstagram  size={25}/></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaLinkedin  size={25}/></a>
+          </div> */}
             </div>
             <div className=" row-start-3 lg:row-start-1 md:row-start-2 md:row-end-3 md:col-start-2 md:col-end-3 flex font-light text-secondary-200 lg:flex-col flex-col sm:flex-row font-poppins lg:items-center  text-sm md:text-base lg:text-lg gap-4">
               <Link to="home" offset={ -150 } activeClass="currently" smooth={ true } className="hover:underline  transition-all duration-500 cursor-pointer">Home</Link>
               <Link to="about" offset={ -150 } activeClass="currently" smooth={ true } className="hover:underline  transition-all duration-500 cursor-pointer">About Us</Link>
-              {/* <Link  to="about" offset={-150} activeClass="currently" smooth={ true }   className=" hover:underline transition-all duration-500  cursor-pointer">About Us</Link> */}
               <Link  to="services"offset={-150}  activeClass="currently" smooth={ true }   className=" hover:underline transition-all duration-500  cursor-pointer">Services</Link>
               <Link  to="portfolio"offset={-150}  activeClass="currently" smooth={ true }   className=" hover:underline transition-all duration-500  cursor-pointer">Our Portfolio</Link>
               <Link  to="contact"offset={-150}  activeClass="currently" smooth={ true }   className=" hover:underline transition-all duration-500  cursor-pointer">Contact us</Link>
@@ -103,22 +109,11 @@ const [email,setEmail]=useState("")
                 
             </div>
           </div>
-          <div className="flex flex-col lg:mt-20 mt-10 items-center gap-5 justify-center mx-auto ">
+          <div className="flex flex-col mt-5 items-center gap-5 justify-center mx-auto ">
             <p className="font-light text-secondary-200 font-poppins ">&copy;All rights Reserved 2023</p>
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </link>
-<ul>
-  <li>
-    <a href="#">
-      <i class="fab fa-facebook-f icon"></i>    </a>
-  </li>
-  <li>
-    <a href="#"><i class="fab fa-twitter icon"></i></a>
-  </li>
-  <li>
-    <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
- 
-            </ul>
+
               
             
           </div>
