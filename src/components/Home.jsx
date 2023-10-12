@@ -29,7 +29,7 @@ const Home = () => {
               </Link>
                 <Link to='about' smooth={ true } offset={-150}>
               <Button icon  color="secondary">
-              Submit
+               Learn more
               </Button>
               </Link>
           </div>

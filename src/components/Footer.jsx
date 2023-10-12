@@ -103,7 +103,7 @@ const [email,setEmail]=useState("")
                   handleClick={ handleSubmit }
                   small color="tertiary"
                   >
-               Learn more
+               Submit
               </Button>
                 </div>
                 
