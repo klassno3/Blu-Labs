@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.current {
+  font-weight: 500;
+  color: #4A82C2;
+}
+
+
