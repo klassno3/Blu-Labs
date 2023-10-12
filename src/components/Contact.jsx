@@ -50,9 +50,8 @@ const Contact = () => {
           <h5 className="text-tertiary-100 text-xl md:text-3xl font-semibold">Need additional information?</h5>
          
           <p className="text-tertiary-100/90 w-3/4 font-light text-left font-poppins text-sm md:text-base ">
-             We prioritize the development of software applications
- that are easy to use and provide a positive user experience.
-          Our team conducts comprehensive
+        Elevate Your Experience: Seamless, Intuitive Software at Your Fingertips!
+         
           </p>
           </div>
           <div className="text-tertiary-100  text-left font-poppins text-sm md:text-base ">
@@ -61,6 +60,32 @@ const Contact = () => {
           <div className="flex items-center gap-2"><FaLocationDot/><span>Bole, sub city, 22 Festival 22 Building, #401</span></div>
           <div className="flex items-center gap-2"><FaPhone/><span>+251908555657</span></div>
           </div>
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</link>
+<ul class="flex">
+  <li>
+    <a href="#" className="w-10 h-10 bg-white text-center text-gray-900 text-2xl mx-2 block rounded-full flex justify-center items-center relative overflow-hidden border border-white z-10 hover:text-white transform transition duration-500">
+      <i class="fab fa-facebook-f icon"></i>
+    </a>
+  </li>
+  <li>
+    <a href="#" className="w-10 h-10 bg-white text-center text-gray-900 text-2xl mx-2 block rounded-full flex justify-center items-center relative overflow-hidden border border-white z-10 hover:text-white transform transition duration-500">
+      <i class="fab fa-twitter icon"></i>
+    </a>
+  </li>
+  <li>
+    <a href="#" className="w-10 h-10 bg-white text-center text-gray-900 text-2xl mx-2 block rounded-full flex justify-center items-center relative overflow-hidden border border-white z-10 hover:text-white transform transition duration-500">
+      <i class="fab fa-linkedin-in icon"></i>
+    </a>
+  </li>
+</ul>
+
+
+
+
+
+
+
         </div>
       <div className="w-3/4  ">
           

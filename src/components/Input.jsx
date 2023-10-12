@@ -13,6 +13,7 @@ const Input = ({
   readOnly,
   disabled,
   onBlur,
+  
 }) => {
   return (
     <div className=" flex font-poppins flex-col items-start gap-1.5 w-full group font-Nunito">

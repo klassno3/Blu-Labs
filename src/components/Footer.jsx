@@ -1,0 +1,132 @@
+import { Link } from 'react-scroll'
+import { useState } from 'react'
+import { useFormik } from "formik";
+ import * as Yup from 'yup';
+import Logo from '../images/Logo-white.svg'
+import { FaMailBulk, FaPhone } from 'react-icons/fa'
+import {FaLocationDot} from "react-icons/fa6"
+import Input  from './Input'
+import Button from './Button'
+const Footer = () => {
+const [email,setEmail]=useState("")
+   const initialValues = {
+    _id: new Date().getTime(),
+    email: email,
+    
+   
+   
+    
+  }
+  const handleSubmit = (values) => {
+    console.log(values)
+   
+ }
+     const Schema = Yup.object().shape( {
+    
+    
+    email: Yup.string().email( "invalid email" ).required( "Enter a value for this field." ),
+    
+  
+    
+  })
+    const formik = useFormik( {
+    initialValues,
+    validationSchema: Schema,
+    onSubmit: handleSubmit
+    
+  } );
+  return (
+
+    <div className='bg-primary-300 py-7 mt-28'>
+      <div className="w-11/12 md:w-10jbjjh1/12 mx-auto text-sm sm:text-base ">
+        <Link to="home" activeClass="current" smooth={ true } offset={ -150 } className='cursor-pointer'>
+          <img className='pt-3 w-20 md:w-28' src={ Logo } alt="" />
+        </Link>
+        <div className="flex flex-col gap-5 my-5">
+          
+          <div className="grid grid-col-1 md:grid-cols-2 gap-6 lg:grid-cols-3 ">
+            <div className="flex flex-col font-light gap-4 ">
+              <p className=" font-poppins text-secondary-200 md:w-10/12">
+             Elevate Your Experience: Seamless, Intuitive Software at Your Fingertips!
+              </p>
+              <div className="flex flex-col gap-2">
+                <div className="flex items-center gap-2 font-poppins  text-secondary-200">
+                  <FaMailBulk />
+                  <p className="">support@bluelabs.net</p>
+                </div>
+                <div className="flex items-center gap-2 font-poppins  text-secondary-200">
+                  <FaLocationDot />
+                  <p className="">Bole, sub city, 22 Festival 22 Building, #401</p>
+                </div>
+                <div className="flex items-center gap-2 font-poppins  text-secondary-200">
+                  <FaPhone />
+                  <p className="">+251908555657</p>
+                </div>
+              </div>
+            </div>
+            <div className=" row-start-3 lg:row-start-1 md:row-start-2 md:row-end-3 md:col-start-2 md:col-end-3 flex font-light text-secondary-200 lg:flex-col flex-col sm:flex-row font-poppins lg:items-center  text-sm md:text-base lg:text-lg gap-4">
+              <Link to="home" offset={ -150 } activeClass="currently" smooth={ true } className="hover:underline  transition-all duration-500 cursor-pointer">Home</Link>
+              <Link to="about" offset={ -150 } activeClass="currently" smooth={ true } className="hover:underline  transition-all duration-500 cursor-pointer">About Us</Link>
+              {/* <Link  to="about" offset={-150} activeClass="currently" smooth={ true }   className=" hover:underline transition-all duration-500  cursor-pointer">About Us</Link> */}
+              <Link  to="services"offset={-150}  activeClass="currently" smooth={ true }   className=" hover:underline transition-all duration-500  cursor-pointer">Services</Link>
+              <Link  to="portfolio"offset={-150}  activeClass="currently" smooth={ true }   className=" hover:underline transition-all duration-500  cursor-pointer">Our Portfolio</Link>
+              <Link  to="contact"offset={-150}  activeClass="currently" smooth={ true }   className=" hover:underline transition-all duration-500  cursor-pointer">Contact us</Link>
+            </div>
+            
+            <div className="flex lg:col-end-4 flex-col lg:items-end   ">
+              <div className="md:w-3/4 flex flex-col gap-4 ">
+                <h5 className="text-secondary-200 text-base md:text-xl font-semibold">Sign up for Our New Letter</h5>
+
+              <Input
+                
+                type="text"
+                
+                placeHolder="example@gmail.com"
+                require={ true }
+                name="email"
+                value={ formik.values.email }
+                error={ formik.touched.email && formik.errors.email }
+                onBlur={ formik.handleBlur }
+                onChange={ ( e ) => {
+                  formik.handleChange( e );
+                  setEmail( e.target.value );
+                } }
+                />
+               
+                <Button  type="submit"
+                  handleClick={ handleSubmit }
+                  small color="tertiary"
+                  >
+               Learn more
+              </Button>
+                </div>
+                
+            </div>
+          </div>
+          <div className="flex flex-col lg:mt-20 mt-10 items-center gap-5 justify-center mx-auto ">
+            <p className="font-light text-secondary-200 font-poppins ">&copy;All rights Reserved 2023</p>
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</link>
+<ul>
+  <li>
+    <a href="#">
+      <i class="fab fa-facebook-f icon"></i>    </a>
+  </li>
+  <li>
+    <a href="#"><i class="fab fa-twitter icon"></i></a>
+  </li>
+  <li>
+    <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+ 
+            </ul>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  )
+}
+
+export default Footer
