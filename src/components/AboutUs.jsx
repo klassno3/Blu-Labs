@@ -9,8 +9,8 @@ const AboutUs = () => {
     <div>
 
     <div className='about max-w-[1440px]   w-11/12 mx-auto '>
-  <div className='bg-secondary-100 pb-7 md:pb-12'>
-       <div className="flex flex-col lg:flex-row pt-8 md:pt-16  lg:items-start gap-12 lg:justify-between">
+  <div className='bg-secondary-100 py-10 md:py-16'>
+       <div className="flex flex-col lg:flex-row   lg:items-start gap-12 lg:justify-between">
           <div
         
           className="lg:w-1/2 md:w-3/4 mx-auto lg:flex hidden items-center  justify-center  lg:justify-start">
@@ -18,11 +18,11 @@ const AboutUs = () => {
         </div>  
         <div
         
-          className="lg:w-1/2 flex flex-col items-start gap-8">
-          <div className="flex flex-col items-start gap-2 md:gap-3">
+          className="lg:w-1/2  flex flex-col items-start gap-8">
+          <div className="flex flex-col items-start gap-3 md:gap-4">
           <h1 className="text-lg uppercase md:text-3xl font-inter font-semibold text-primary-300">About Us</h1>
 
-            <p className="text-tertiary-100 text-left font-poppins text-sm md:text-base ">
+            <p className="text-tertiary-100 text-left font-poppins l text-sm md:text-base ">
                   Blu Labs PLC is a software development company established in November 2022.
                   We have created several web applications, including &nbsp;
                      <a href='https://enkugifts.pythonanywhere.com' target="_blank" rel="noopener noreferrer" className='text-primary-200 cursor-pointer'>
@@ -45,7 +45,7 @@ const AboutUs = () => {
 
               </p>
               </div>
-              <button onClick={()=>setIsOpen(!isOpen)} className='text-primary-200 hover:underline uppercase font-inter flex gap-2 items-center'>
+              <button onClick={()=>setIsOpen(!isOpen)} className='text-primary-200 mt-1 hover:underline uppercase font-inter md:text-base text-sm flex gap-2 items-center'>
                 <span>{isOpen ? "Show Less" :" Show More"} </span>
                 <FaEye />
               </button>

@@ -53,10 +53,10 @@ const Navigation = () => {
       </div>
       <div className={ `z-50 transition-all duration-300 flex justify-center items-center absolute overflow-x-hidden h-screen translate-x-0  w-3/4  top-[63px] ${active ? " bg-secondary-100/95":" bg-secondary-200/95"} ${ isOpen ? "lg:hidden right-0 " : "-right-full" }` }>
         <div className="flex flex-col font-poppins items-center text-base gap-10">
-          <Link onClick={()=>setIsOpen(false)} to="home" activeClass="currently" smooth={ true } className=" relative cursor-pointer z-10 transition-all bg-[-100%] duration-500 bg-[length:200%_100%] text-transparent bg-gradient bg-clip-text hover:bg-[0%]">Home</Link>
-          <Link onClick={ () => setIsOpen( false ) } to="about" activeClass="currently" smooth={ true } className=" relative cursor-pointer z-10 transition-all bg-[-100%] duration-500 bg-[length:200%_100%] text-transparent bg-gradient bg-clip-text hover:bg-[0%]">About Us</Link>
+          <Link onClick={()=>setIsOpen(false)} to="home" activeClass="current" smooth={ true } className=" relative cursor-pointer z-10 transition-all bg-[-100%] duration-500 bg-[length:200%_100%] text-transparent bg-gradient bg-clip-text hover:bg-[0%]">Home</Link>
+          <Link onClick={ () => setIsOpen( false ) } to="about" activeClass="current" smooth={ true } className=" relative cursor-pointer z-10 transition-all bg-[-100%] duration-500 bg-[length:200%_100%] text-transparent bg-gradient bg-clip-text hover:bg-[0%]">About Us</Link>
 
-          <Link onClick={ () => setIsOpen( false ) } to="services" activeClass="currently" smooth={ true } className=" relative cursor-pointer z-10 transition-all bg-[-100%] duration-500 bg-[length:200%_100%] text-transparent bg-gradient bg-clip-text hover:bg-[0%]">Services</Link>
+          <Link onClick={ () => setIsOpen( false ) } to="services" activeClass="current" smooth={ true } className=" relative cursor-pointer z-10 transition-all bg-[-100%] duration-500 bg-[length:200%_100%] text-transparent bg-gradient bg-clip-text hover:bg-[0%]">Services</Link>
                     <Link onClick={()=>setIsOpen(false)} to="portfolio" activeClass="current"  smooth={ true } spy={ true }  offset={-150}  className=" relative cursor-pointer z-10 transition-all bg-[-100%] duration-500 bg-[length:200%_100%] text-transparent bg-gradient bg-clip-text hover:bg-[0%]">Our Portfolio</Link>
            <Link  onClick={()=>setIsOpen(false)}  to="contact"  smooth={ true }  offset={ -150 }> <Button small color="primary" >
             Contact us
