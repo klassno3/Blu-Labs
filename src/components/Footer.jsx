@@ -5,7 +5,7 @@ import { useFormik } from "formik";
 import Logo from '../images/Logo-white.svg'
 import { FaMailBulk, FaPhone } from 'react-icons/fa'
 import { FaLocationDot } from "react-icons/fa6"
-// import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import Input  from './Input'
 import Button from './Button'
 const Footer = () => {
@@ -65,11 +65,11 @@ const [email,setEmail]=useState("")
                 </div>
               </div>
                  {/* add social medial links   */}
-        {/* <div className="flex gap-4  text-secondary-200">
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaFacebook size={25}/></a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaInstagram  size={25}/></a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaLinkedin  size={25}/></a>
-          </div> */}
+        <div className="flex gap-4  text-secondary-200">
+            <a href="https://blu-labs-company.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaFacebook size={25}/></a>
+            <a href="https://blu-labs-company.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaInstagram  size={25}/></a>
+            <a href="https://blu-labs-company.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaLinkedin  size={25}/></a>
+          </div>
             </div>
             <div className=''>
 

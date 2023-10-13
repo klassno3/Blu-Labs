@@ -4,7 +4,7 @@ import { useFormik } from "formik";
 import Input from './Input';
 import  Button  from './Button';
 import TextArea from './TextArea';
-// import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import {FaMailBulk,FaPhone} from "react-icons/fa"
 import {FaLocationDot} from "react-icons/fa6"
 const Contact = () => {
@@ -62,11 +62,11 @@ const Contact = () => {
           </div>
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </link>
- {/* <div className="flex gap-4  text-tertiary-100">
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaFacebook size={25}/></a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaInstagram  size={25}/></a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaLinkedin  size={25}/></a>
-          </div> */}
+ <div className="flex gap-4  text-tertiary-100">
+            <a href="https://blu-labs-company.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaFacebook size={25}/></a>
+            <a href="https://blu-labs-company.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaInstagram  size={25}/></a>
+            <a href="https://blu-labs-company.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaLinkedin  size={25}/></a>
+          </div>
 
 
 
