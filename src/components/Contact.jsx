@@ -49,7 +49,7 @@ const Contact = () => {
 
           <h5 className="text-tertiary-100 text-xl md:text-3xl font-semibold">Need additional information?</h5>
          
-          <p className="text-tertiary-100/70 w-3/4  text-left font-poppins text-sm md:text-base ">
+          <p className="text-tertiary-100/70 w-3/4  text-left font-poppins text-xs md:text-base ">
         Elevate Your Experience: Seamless, Intuitive Software at Your Fingertips!
          
           </p>
