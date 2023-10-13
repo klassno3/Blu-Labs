@@ -5,7 +5,7 @@ import Button from './Button'
 const Home = () => {
   return (
     <div className='home bg-secondary-200 pb-20'>
-       <div className="flex flex-col lg:flex-row pt-8 md:pt-28  w-11/12 mx-auto  gap-12 lg:justify-between">
+       <div className="flex flex-col lg:flex-row pt-8 md:pt-28 max-w-[1440px]  w-11/12 mx-auto  gap-12 lg:justify-between">
         
         <div
         

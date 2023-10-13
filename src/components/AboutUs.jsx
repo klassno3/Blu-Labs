@@ -8,8 +8,8 @@ const AboutUs = () => {
   return (
     <div>
 
-    <div className='about  w-11/12 mx-auto '>
-  <div className='bg-secondary-100 pb-10'>
+    <div className='about max-w-[1440px]   w-11/12 mx-auto '>
+  <div className='bg-secondary-100 pb-7 md:pb-12'>
        <div className="flex flex-col lg:flex-row pt-8 md:pt-16  lg:items-start gap-12 lg:justify-between">
           <div
         
@@ -19,16 +19,29 @@ const AboutUs = () => {
         <div
         
           className="lg:w-1/2 flex flex-col items-start gap-8">
-          <div className="flex flex-col items-start gap-3">
-
+          <div className="flex flex-col items-start gap-2 md:gap-3">
           <h1 className="text-lg uppercase md:text-3xl font-inter font-semibold text-primary-300">About Us</h1>
+
             <p className="text-tertiary-100 text-left font-poppins text-sm md:text-base ">
-           Blu Labs PLC is a software development company established in November 2022. We have created several web applications, including diyethiopia.com, enkugifts.com, and ismset.com. Diyethiopia.com is an online store specializing in electronics, offering a wide range of electronic, mechanical, and electro-mechanical materials and services. These services include 3D printing, PCB production, and electro-mechanical design. The website is fully operational, and customers are actively purchasing tools, materials and utilizing services.
+                  Blu Labs PLC is a software development company established in November 2022.
+                  We have created several web applications, including &nbsp;
+                     <a href='https://enkugifts.pythonanywhere.com' target="_blank" rel="noopener noreferrer" className='text-primary-200 cursor-pointer'>
+             diyethiopia.com, &nbsp;
+          </a>
+                     <a href='https://www.diyethiopia.com' target="_blank" rel="noopener noreferrer" className='text-primary-200 cursor-pointer'>
+             enkugifts.com,&nbsp;
+          </a>
+                     <a href='https://www.isms.et/' target="_blank" rel="noopener noreferrer" className='text-primary-200 cursor-pointer'>
+            ismset.com
+          </a>
+                .
+              
+                  Diyethiopia.com is an online store specializing in electronics, offering a wide range of electronic, mechanical, and electro-mechanical materials and services. These services include 3D printing, PCB production, and electro-mechanical design. The website is fully operational, and customers are actively purchasing tools, materials and utilizing services.
               </p>
               <div className={`${isOpen ? "flex" : "hidden"} text-tertiary-100 text-center lg:text-left font-poppins text-sm md:text-base `}>
 
               <p>
-                lorem 400
+                Blu Labs specializes in custom software development, creating tailored solutions to address specific business requirements.We provides consulting and advisory services to assist clients in making informed decisions regarding their software development projects and develops mobile applications for both iOS and Android platforms. These apps are designed to provide intuitive and engaging user experiences.
 
               </p>
               </div>
@@ -46,7 +59,7 @@ const AboutUs = () => {
       </div>
       <div className=" bg-primary-300 py-10 ">
 
-      <div className="flex flex-col gap-10 w-11/12 mx-auto  lg:flex-row justify-center">
+      <div className="flex flex-col gap-10 max-w-[1440px]  w-11/12 mx-auto  lg:flex-row justify-center">
           <div className="w-full  mx-auto sm:w-3/4 rounded shadow-md bg-secondary-200 p-5 lg:w-1/3">
             <div className="flex flex-col gap-2 items-center">
 

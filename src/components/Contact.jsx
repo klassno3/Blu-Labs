@@ -40,9 +40,9 @@ const Contact = () => {
     
   } );
   return (
-     <div id='contact' className='py-20'>
+     <div  className='contact py-10 md:py-16'>
     
-      <div className="flex flex-col md:flex-row justify-center gap-8 w-10/12 mx-auto">
+      <div className="flex flex-col md:flex-row justify-center gap-8 w-11/12 md:w-10/12 mx-auto">
 
         <div className="w-full flex flex-col gap-3 font-poppins">
           <div className="flex flex-col gap-2">

@@ -2,9 +2,9 @@ import React from 'react'
 import { services } from '../data'
 const Services = () => {
   return (
-    <div className='services w-11/12 mx-auto my-32'>
-       <h1 className="text-lg uppercase md:text-3xl pb-10  font-inter font-semibold text-primary-300">services we provide</h1>
-      <div className="grid grid-cols-1  md:grid-cols-2  gap-8">
+    <div className='services max-w-[1440px]  w-11/12 mx-auto  my-10 md:my-20'>
+       <h1 className="text-lg uppercase md:text-3xl pb-3 md:pb-8  font-inter font-semibold text-primary-300">services we provide</h1>
+      <div className="grid grid-cols-1  md:grid-cols-2  gap-5 md:gap-8">
         
       { services.map( ( item ) => (
         <div className="bg-primary-300 sm:w-3/4 md:w-full mx-auto shadow py-5 px-6 rounded-md text-secondary-200">

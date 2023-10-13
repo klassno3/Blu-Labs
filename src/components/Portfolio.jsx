@@ -5,11 +5,11 @@ import ISMS from "../images/ISMS.jpg"
 import Button from './Button'
 const Portfolio = () => {
   return (
-    <div className='portfolio bg-secondary-200 py-20'>
-        <h1 className="text-lg uppercase md:text-3xl pb-16 mx-auto flex justify-center font-inter font-semibold text-primary-300">Our Portfolio</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 w-11/12 sm:w-8/12 md:w-10/12 mx-auto gap-16">
+    <div className='portfolio bg-secondary-200 py-10  md:py-16'>
+        <h1 className="text-lg uppercase md:text-3xl pb-5 md:pb-12 mx-auto flex justify-center font-inter font-semibold text-primary-300">Our Portfolio</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 w-11/12 max-w-[1440px]  sm:w-8/12 md:w-10/12 mx-auto gap-8 md:gap-16">
       
-        <div className="flex flex-col items-start   rounded-md bg-white">
+        <div className="flex flex-col items-start shadow-lg   rounded-md bg-white">
          <img  className="h-full rounded-md rounded-b-none"src={Enku} alt="" />
           
           <div className='flex flex-col p-6 items-start gap-6 '>
