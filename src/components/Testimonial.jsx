@@ -24,7 +24,7 @@ const Testimonial = () => {
                 <p className=""> { item.title}</p>
               </div>
             </div>
-            <p className='text-sm md:text-base mt-4 font-light'>
+            <p className='text-xs md:text-base mt-4 font-light'>
              {item.description}</p>
           </div>
         ))}
