@@ -64,24 +64,25 @@ const AboutUs = () => {
             <div className="flex flex-col gap-2 items-center">
 
           <h3 className="text-lg uppercase md:text-2xl font-inter font-semibold text-primary-300">Vission</h3>
-          <p className=" text-tertiary-100/80 text-center  font-poppins text-sm lg:text-base ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis excepturi consequuntur alias totam dignissimos, repellat provident! Expedita dicta modi laudantium maiores, molestias doloremque
-           </p>
+              <p className=" text-tertiary-100/80 text-center  font-poppins text-sm lg:text-base ">
+To be a leading software development company that delivers innovative and customized solutions to meet the evolving needs of businesses and individuals.           </p>
             </div>
 </div>
           <div className="w-full  mx-auto sm:w-3/4 rounded shadow-md bg-secondary-200 p-5 lg:w-1/3">
             <div className="flex flex-col gap-2 items-center">
 
           <h3 className="text-lg uppercase md:text-2xl font-inter font-semibold text-primary-300">Mission</h3>
-          <p className=" text-tertiary-100/80 text-center  font-poppins text-sm lg:text-base ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis excepturi consequuntur alias totam dignissimos, repellat provident! Expedita dicta modi laudantium maiores, molestias doloremque
-           </p>
+              <p className=" text-tertiary-100/80 text-center  font-poppins text-sm lg:text-base ">
+Blu Labs PLC is dedicated to providing cutting-edge software development services and solutions to help businesses thrive in the digital era.    </p>
             </div>
 </div>
           <div className="w-full  mx-auto sm:w-3/4 rounded shadow-md bg-secondary-200 p-5 lg:w-1/3">
             <div className="flex flex-col gap-2 items-center">
 
           <h3 className="text-lg uppercase md:text-2xl font-inter font-semibold text-primary-300">Value</h3>
-          <p className=" text-tertiary-100/80 text-center  font-poppins text-sm lg:text-base ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis excepturi consequuntur alias totam dignissimos, repellat provident! Expedita dicta modi laudantium maiores, molestias doloremque
-           </p>
+              <p className=" text-tertiary-100/80 text-center  font-poppins text-sm lg:text-base ">
+                We embrace creativity and constantly seek innovative solutions to address complex business challenges.We are committed to delivering high-quality software development services that meet the highest industry standards.
+              </p>
             </div>
 </div>
       </div>
