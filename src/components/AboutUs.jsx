@@ -38,7 +38,7 @@ const AboutUs = () => {
               
                   Diyethiopia.com is an online store specializing in electronics, offering a wide range of electronic, mechanical, and electro-mechanical materials and services. These services include 3D printing, PCB production, and electro-mechanical design. The website is fully operational, and customers are actively purchasing tools, materials and utilizing services.
               </p>
-              <div className={`${isOpen ? "flex" : "hidden"} text-tertiary-100 text-center lg:text-left font-poppins text-sm md:text-base `}>
+              <div className={`${isOpen ? "flex" : "hidden"} text-tertiary-100 font-poppins text-sm md:text-base `}>
 
               <p>
                 Blu Labs specializes in custom software development, creating tailored solutions to address specific business requirements.We provides consulting and advisory services to assist clients in making informed decisions regarding their software development projects and develops mobile applications for both iOS and Android platforms. These apps are designed to provide intuitive and engaging user experiences.
