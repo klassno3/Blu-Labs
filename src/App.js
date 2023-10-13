@@ -9,7 +9,7 @@ import Footer from "./components/Footer"
 import Testimonial from './components/Testimonial'
 const App = () => {
   return (
-    <div className=''>
+    <div className='overflow-x-hidden'>
    
       <Navigation />
       <Home />

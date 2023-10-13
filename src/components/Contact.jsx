@@ -49,12 +49,12 @@ const Contact = () => {
 
           <h5 className="text-tertiary-100 text-xl md:text-3xl font-semibold">Need additional information?</h5>
          
-          <p className="text-tertiary-100/90 w-3/4 font-light text-left font-poppins text-sm md:text-base ">
+          <p className="text-tertiary-100/70 w-3/4  text-left font-poppins text-sm md:text-base ">
         Elevate Your Experience: Seamless, Intuitive Software at Your Fingertips!
          
           </p>
           </div>
-          <div className="text-tertiary-100  text-left font-poppins text-sm md:text-base ">
+          <div className="text-tertiary-100/90  text-left font-poppins text-sm md:text-base ">
 
           <div className="flex items-center gap-2"><FaMailBulk/><span>support@bluelabs.net</span></div>
           <div className="flex items-center gap-2"><FaLocationDot/><span>Bole, sub city, 22 Festival 22 Building, #401</span></div>
