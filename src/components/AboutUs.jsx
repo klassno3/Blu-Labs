@@ -119,7 +119,7 @@ const leftCardAnimate = {
         initial={ "offScreen" }
         whileInView={ "onScreen" }
         viewport={ {
-          once: true, amount:.5
+          once: true, amount:.2
         } }
           className="flex flex-col gap-7 md:gap-10 max-w-[1440px]  w-11/12 mx-auto  lg:flex-row justify-center">
           <motion.div variants={leftCardAnimate} className="w-full  mx-auto sm:w-3/4 rounded shadow-md bg-secondary-200 p-5 lg:w-1/3">

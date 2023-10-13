@@ -10,7 +10,7 @@ const Testimonial = () => {
       <ScrollCarousel
         autoplay
         autoplaySpeed={4}
-        speed={ 8 }
+        speed={ 2 }
         margin={ 30 }
         
        

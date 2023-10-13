@@ -60,8 +60,8 @@ const Home = () => {
 
         <motion.div
         variants={rightAnimate}
-          className="lg:w-1/2 md:w-3/4 flex items-center mx-auto  justify-center lg:items-end lg:justify-end">
-          <img src={ Hero } alt="" className="w-9/12" />
+          className="lg:w-1/2 w-full sm:w-3/4 flex items-center mx-auto  justify-center lg:items-end lg:justify-end">
+          <img src={ Hero } alt="" className="w-10/12" />
         </motion.div>  
       </div>
     </motion.div>
