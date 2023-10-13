@@ -2,7 +2,10 @@ import {BsPeople} from "react-icons/bs"
 import { HiOutlineComputerDesktop} from "react-icons/hi2"
 import { CgWebsite } from "react-icons/cg"
 import { BiMobileAlt } from "react-icons/bi"
-
+import AvatarOne from "./images/avatar-1.jpg"
+import AvatarTwo from "./images/avatar-2.jpg"
+import AvatarThree from "./images/avatar-3.jpg"
+import AvatarFour from "./images/avatar-4.jpg"
 export const services = [
 
  {
@@ -31,4 +34,34 @@ export const services = [
   },
 
 
+]
+export const TestimonialContent = [
+  {
+    id: 1,
+    name: "Selam Mekonen",
+    title:"Principle",
+    description: "I have been using the Student Management System for the past year, and I am extremely satisfied with its capabilities. This system has completely transformed the way we handle student information and administration at our institution.",
+    avatar: <img  className="rounded-full w-16 h-16 object-cover"  src={ AvatarFour } alt="profile pic"/>,
+  },
+  {
+    id: 2,
+    name: "Girma Ayele",
+    title:"Principle",
+    description: "I have been using the Student Management System for the past year, and I am extremely satisfied with its capabilities. This system has completely transformed the way we handle student information and administration at our institution.",
+    avatar:<img  className="rounded-full w-16 h-16 object-cover"  src={ AvatarTwo} alt="profile pic"/>
+  },
+  {
+    id: 3,
+    name: "Meron kebede",
+    title:"Principle",
+    description: "I have been using the Student Management System for the past year, and I am extremely satisfied with its capabilities. This system has completely transformed the way we handle student information and administration at our institution.",
+    avatar: <img   className="rounded-full w-16 h-16 object-cover"  src={ AvatarOne} alt="profile pic"/>
+  },
+  {
+    id: 4,
+    name: "Daneil Habtamu",
+    title:"Principle",
+    description: "I have been using the Student Management System for the past year, and I am extremely satisfied with its capabilities. This system has completely transformed the way we handle student information and administration at our institution.",
+    avatar:<img  className="rounded-full w-16 h-16 object-cover"  src={ AvatarThree} alt="profile pic"/>
+  },
 ]

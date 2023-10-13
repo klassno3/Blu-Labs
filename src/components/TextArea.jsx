@@ -22,7 +22,7 @@ const TextArea = ({
       className="text-sm md:text-base font-semibold text-tertiary-100"
       >
         {label} {require&& <span className="text-red-400 font-semibold">*</span>}
-      </label>
+        </label>
       :null}
       <textarea
         disabled={disabled}

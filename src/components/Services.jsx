@@ -7,7 +7,7 @@ const Services = () => {
       <div className="grid grid-cols-1  md:grid-cols-2  gap-5 md:gap-8">
         
       { services.map( ( item ) => (
-        <div className="bg-primary-300 sm:w-3/4 md:w-full mx-auto shadow py-5 px-6 rounded-md text-secondary-200">
+        <div key={item.id} className="bg-primary-300 sm:w-3/4 md:w-full mx-auto shadow py-5 px-6 rounded-md text-secondary-200">
           <div className="flex flex-col gap-2">
 
           <div className="flex flex-col gap-1">
