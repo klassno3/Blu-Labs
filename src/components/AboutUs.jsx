@@ -59,7 +59,7 @@ const AboutUs = () => {
       </div>
       <div className=" bg-primary-300 py-10 ">
 
-      <div className="flex flex-col gap-10 max-w-[1440px]  w-11/12 mx-auto  lg:flex-row justify-center">
+      <div className="flex flex-col gap-7 md:gap-10 max-w-[1440px]  w-11/12 mx-auto  lg:flex-row justify-center">
           <div className="w-full  mx-auto sm:w-3/4 rounded shadow-md bg-secondary-200 p-5 lg:w-1/3">
             <div className="flex flex-col gap-2 items-center">
 

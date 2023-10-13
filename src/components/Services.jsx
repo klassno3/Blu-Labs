@@ -3,7 +3,7 @@ import { services } from '../data'
 const Services = () => {
   return (
     <div className='services max-w-[1440px]  w-11/12 mx-auto  my-10 md:my-20'>
-       <h1 className="text-lg uppercase md:text-3xl pb-3 md:pb-8  font-inter font-semibold text-primary-300">services we provide</h1>
+       <h1 className="text-lg uppercase md:text-3xl pb-2 md:pb-8  font-inter font-semibold text-primary-300">services we provide</h1>
       <div className="grid grid-cols-1  md:grid-cols-2  gap-5 md:gap-8">
         
       { services.map( ( item ) => (
