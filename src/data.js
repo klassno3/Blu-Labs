@@ -17,7 +17,7 @@ export const services = [
  {
     id: 2,
     title: "Consulting and Advisory Services",
-    description: "Blu Labs provides consulting and advisory services to assist clients in making informed decisions regarding their software development projects",
+    description: "Blu Labs provides consulting and advisory services to assist clients in making informed decisions regarding their software development projects.",
     icon:<BsPeople/>
   },
  {
@@ -29,7 +29,7 @@ export const services = [
  {
     id: 4,
     title: "Mobile App Development",
-    description: "Blu Labs develops mobile applications for both iOS and Android platforms. These apps are designed to provide intuitive and engaging user experiences..",
+    description: "Blu Labs develops mobile applications for both iOS and Android platforms. These apps are designed to provide intuitive and engaging user experiences.",
     icon:<BiMobileAlt/>
   },
 

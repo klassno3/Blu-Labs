@@ -19,8 +19,8 @@ const Navigation = () => {
   return (
   
 
-    <div  className={ `w-full  ${ active ? "bg-secondary-100 z-50 shadow-xl font-poppins  fixed top-0 left-0  " :
-      "bg-secondary-200 z-440 fixed top-0 left-0  " }` }>
+    <div  className={ `w-full z-[10000] ${ active ? "bg-secondary-100 z-50 shadow-xl font-poppins  fixed top-0 left-0  " :
+      "bg-secondary-200 fixed top-0 left-0  " }` }>
       <div className="w-11/12 max-w-[1440px]    mx-auto flex justify-between items-center">
         <Link to="home" smooth={ true } spy={ true } offset={ -150 } className='cursor-pointer'>
           <img className='py-3 w-20 md:w-28' src={ Logo } alt="" />
