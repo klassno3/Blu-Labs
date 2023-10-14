@@ -52,7 +52,7 @@ const [email,setEmail]=useState("")
                   <FaMailBulk />
                   <p  className="">support@bluelabs.net</p>
                 </a>
-                <a href="https://maps.app.goo.gl/R1MexHMnpyXvxq2u8" target="_blank" rel="noopener noreferrer" className="flex w-max bg-red-100 items-center gap-2 font-poppins  text-secondary-200">
+                <a href="https://maps.app.goo.gl/R1MexHMnpyXvxq2u8" target="_blank" rel="noopener noreferrer" className="flex w-max  items-center gap-2 font-poppins  text-secondary-200">
                   <FaLocationDot />
                   <p className="">Bole, sub city, 22 Festival 22 Building, #401</p>
                 </a>
