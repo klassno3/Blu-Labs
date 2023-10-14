@@ -59,8 +59,7 @@ items: 1
                 <h1 className="text-lg uppercase md:text-3xl mx-auto flex justify-center font-inter font-semibold text-primary-300">Testimonial</h1>
         <Carousel
           infinite={ true }
-          autoPlay={ true }
-          autoPlaySpeed={ 2000 }
+         
      
        
           itemClass="sm:pr-7 mx-auto"

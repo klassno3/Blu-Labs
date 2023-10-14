@@ -25,9 +25,7 @@ const [email,setEmail]=useState("")
   
   const Schema = Yup.object().shape({
 
-  email: Yup.string()
-    .matches(/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/, "Invalid email format")
-    .required("Enter a value for this field."),
+ 
 });
     const formik = useFormik( {
     initialValues,
@@ -50,15 +48,15 @@ const [email,setEmail]=useState("")
              Elevate Your Experience: Seamless, Intuitive Software at Your Fingertips!
               </p>
               <div className="flex flex-col gap-2">
-                <a href = "mailto:support@bluelabs.net" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-poppins  text-secondary-200">
+                <a href = "mailto:support@bluelabs.net" target="_blank" rel="noopener noreferrer" className="flex w-max items-center gap-2 font-poppins  text-secondary-200">
                   <FaMailBulk />
                   <p  className="">support@bluelabs.net</p>
                 </a>
-                <a href="https://maps.app.goo.gl/R1MexHMnpyXvxq2u8" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-poppins  text-secondary-200">
+                <a href="https://maps.app.goo.gl/R1MexHMnpyXvxq2u8" target="_blank" rel="noopener noreferrer" className="flex w-max bg-red-100 items-center gap-2 font-poppins  text-secondary-200">
                   <FaLocationDot />
                   <p className="">Bole, sub city, 22 Festival 22 Building, #401</p>
                 </a>
-                <a href="tel:0908555657" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-poppins  text-secondary-200">
+                <a href="tel:0908555657" target="_blank" rel="noopener noreferrer" className="flex  w-max items-center gap-2 font-poppins  text-secondary-200">
                   <FaPhone />
                   <p className="">+251908555657</p>
                 </a>
@@ -103,7 +101,7 @@ const [email,setEmail]=useState("")
               </Button>
                 
                     </div>
-            <div className="flex font-light  text-secondary-200 flex-col sm:flex-row font-poppins lg:items-center  text-sm lg:text-base gap-3 lg:gap-4">
+            <div className="inline-flex font-light  text-secondary-200 flex-col sm:flex-row font-poppins lg:items-center  text-sm lg:text-base gap-3 lg:gap-4">
               <Link to="home" offset={ -150 } activeClass="currently" smooth={ true } className="hover:underline  transition-all duration-500 cursor-pointer">Home</Link>
               <Link to="about" offset={ -150 } activeClass="currently" smooth={ true } className="hover:underline  transition-all duration-500 cursor-pointer">About Us</Link>
               <Link  to="services"offset={-150}  activeClass="currently" smooth={ true }   className=" hover:underline transition-all duration-500  cursor-pointer">Services</Link>
