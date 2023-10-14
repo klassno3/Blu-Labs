@@ -51,18 +51,18 @@ const [email,setEmail]=useState("")
              Elevate Your Experience: Seamless, Intuitive Software at Your Fingertips!
               </p>
               <div className="flex flex-col gap-2">
-                <div className="flex items-center gap-2 font-poppins  text-secondary-200">
+                <a href = "mailto:support@bluelabs.net" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-poppins  text-secondary-200">
                   <FaMailBulk />
-                  <p className="">support@bluelabs.net</p>
-                </div>
-                <div className="flex items-center gap-2 font-poppins  text-secondary-200">
+                  <p  className="">support@bluelabs.net</p>
+                </a>
+                <a href="https://maps.app.goo.gl/R1MexHMnpyXvxq2u8" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-poppins  text-secondary-200">
                   <FaLocationDot />
                   <p className="">Bole, sub city, 22 Festival 22 Building, #401</p>
-                </div>
-                <div className="flex items-center gap-2 font-poppins  text-secondary-200">
+                </a>
+                <a href="tel:0908555657" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-poppins  text-secondary-200">
                   <FaPhone />
                   <p className="">+251908555657</p>
-                </div>
+                </a>
               </div>
                  {/* add social medial links   */}
         <div className="flex gap-4  text-secondary-200">

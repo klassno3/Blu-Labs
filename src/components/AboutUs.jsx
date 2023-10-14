@@ -112,7 +112,7 @@ const leftCardAnimate = {
       </motion.div>
       </div>
       </div>
-      <div className=" bg-primary-300 py-10 ">
+      <div className=" bg-pattern bg-cover py-10 ">
 
         <motion.div
        transition={ { staggerChildren: 0.1 } }

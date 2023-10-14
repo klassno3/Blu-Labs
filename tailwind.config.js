@@ -23,6 +23,9 @@ module.exports = {
       },
       backgroundImage: {
         'gradient': 'linear-gradient(to right, #3c96fc, #3c96fc 50%, #021326 50%)',
+         'pattern':
+          "linear-gradient(to right bottom, rgba(74, 130, 194, 0.637), rgba(74, 130, 194, 0.337)), url('https://www.state.gov/wp-content/uploads/2023/02/shutterstock_1029307468-2560x852.jpg')",
+      
        
    
         

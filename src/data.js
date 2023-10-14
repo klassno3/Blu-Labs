@@ -41,27 +41,27 @@ export const TestimonialContent = [
     name: "Selam Mekonen",
     title:"Principle",
     description: "I have been using the Student Management System for the past year, and I am extremely satisfied with its capabilities. This system has completely transformed the way we handle student information and administration at our institution.",
-    avatar: <img  className="rounded-full w-16 h-16 object-cover"  src={ AvatarFour } alt="profile pic"/>,
+    avatar: <img  className="rounded-full w-16 h-16 object-cover"  src={ AvatarOne } alt="profile pic"/>,
   },
   {
     id: 2,
     name: "Girma Ayele",
     title:"Principle",
     description: "I have been using the Student Management System for the past year, and I am extremely satisfied with its capabilities. This system has completely transformed the way we handle student information and administration at our institution.",
-    avatar:<img  className="rounded-full w-16 h-16 object-cover"  src={ AvatarTwo} alt="profile pic"/>
+    avatar:<img  className="rounded-full w-16 h-16 object-cover"  src={ AvatarFour} alt="profile pic"/>
   },
   {
     id: 3,
     name: "Meron kebede",
     title:"Principle",
     description: "I have been using the Student Management System for the past year, and I am extremely satisfied with its capabilities. This system has completely transformed the way we handle student information and administration at our institution.",
-    avatar: <img   className="rounded-full w-16 h-16 object-cover"  src={ AvatarOne} alt="profile pic"/>
+    avatar: <img   className="rounded-full w-16 h-16 object-cover"  src={ AvatarThree} alt="profile pic"/>
   },
   {
     id: 4,
     name: "Daneil Habtamu",
     title:"Principle",
     description: "I have been using the Student Management System for the past year, and I am extremely satisfied with its capabilities. This system has completely transformed the way we handle student information and administration at our institution.",
-    avatar:<img  className="rounded-full w-16 h-16 object-cover"  src={ AvatarThree} alt="profile pic"/>
+    avatar:<img  className="rounded-full w-16 h-16 object-cover"  src={ AvatarTwo} alt="profile pic"/>
   },
 ]

@@ -56,11 +56,13 @@ const Contact = () => {
           </div>
           <div className="text-tertiary-100/90  text-left font-poppins text-sm md:text-base ">
 
-          <div className="flex items-center gap-2"><FaMailBulk/><span>support@bluelabs.net</span></div>
-          <div className="flex items-center gap-2"><FaLocationDot/><span>Bole, sub city, 22 Festival 22 Building, #401</span></div>
-          <div className="flex items-center gap-2"><FaPhone/><span>+251908555657</span></div>
+          <a href = "mailto:support@bluelabs.net" target="_blank" rel="noopener noreferrer"  className="flex items-center gap-2"><FaMailBulk/><span>support@bluelabs.net</span></a>
+          <a href="https://maps.app.goo.gl/R1MexHMnpyXvxq2u8" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2"><FaLocationDot/><span>Bole, sub city, 22 Festival 22 Building, #401</span></a>
+          <a href="tel:0908555657" target="_blank" rel="noopener noreferrer"  className="flex items-center gap-2"><FaPhone/><span>+251908555657</span></a>
           </div>
-      
+      	
+
+
  <div className="flex gap-4  text-tertiary-100">
             <a href="https://blu-labs-company.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaFacebook size={25}/></a>
             <a href="https://blu-labs-company.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-all duration-300"><FaInstagram  size={25}/></a>

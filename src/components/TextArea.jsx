@@ -34,7 +34,7 @@ const TextArea = ({
         id={name}
         onChange={onChange}
         onBlur={onBlur}
-        className={ ` ${ error ? "border-red-400 border-[1px] " : "border-[1.5px]  border-gray-400" }  w-full rounded-sm focus:outline-none focus:ring-0 px-3 py-2 placeholder:text-sm placeholder:font-poppins` }
+        className={ ` ${ error ? "border-red-400 border-[1px] " : "border-[1.5px]  border-gray-400" }  w-full h-[150px] rounded-sm focus:outline-none focus:ring-0 px-3 py-2 placeholder:text-sm placeholder:font-poppins` }
         placeholder={placeHolder}
       />
      

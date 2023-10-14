@@ -87,10 +87,10 @@ Ismset.com is a web-based school management system that helps schools manage stu
           
           <div className='flex flex-col p-6 items-start gap-6 '>
           <div className='flex flex-col  items-start gap-1 '>
-            <h4 className="font-poppins text-tertiary-100 md:text-2xl text-xl">ISMS</h4> 
+            <h4 className="font-poppins text-tertiary-100 md:text-2xl text-xl">Diyethiopia</h4> 
             <p className="font-poppins text-tertiary-100/70 text-sm md:text-base ">
 
-Ismset.com is a web-based school management system that helps schools manage student, teacher, parent, and staff registration and academic records.            </p>
+Diyethiopia.com is an online electronics shop that offers a variety of electronic, mechanical, and electro-mechanical materials and services, such as 3D printing, PCB building, and electro-mechanical designs.      </p>
 </div>
           <a href='https://www.diyethiopia.com' target="_blank" rel="noopener noreferrer">
           <Button small color="primary" >
