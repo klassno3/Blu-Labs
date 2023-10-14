@@ -78,7 +78,7 @@ const Contact = () => {
 
 
         </div>
-      <div className="w-3/4  ">
+      <div className="sm:w-3/4  ">
           
         
         <form onSubmit={formik.handleSubmit } action="">
