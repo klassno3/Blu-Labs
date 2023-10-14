@@ -67,7 +67,7 @@ items: 1
       
           responsive={ responsive }>
  {TestimonialContent.map((item) => (
-            <div className="bg-secondary-200 w-full px-7 my-5 md:my-10 py-5 text-tertiary-200 font-poppins rounded-xl  shadow-md">
+            <div className="bg-secondary-200 w-full px-7 mt-5 md:mt-10 py-5 text-tertiary-200 font-poppins rounded-xl  shadow-md">
             <div className="flex items-center gap-4">
               <div>{ item.avatar }</div>
               <div className="flex text-sm md:text-base flex-col">

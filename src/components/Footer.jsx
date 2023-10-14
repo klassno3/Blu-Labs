@@ -21,15 +21,14 @@ const [email,setEmail]=useState("")
   const handleSubmit = (values) => {
     console.log(values)
    
- }
-     const Schema = Yup.object().shape( {
-    
-    
-    email: Yup.string().email( "invalid email" ).required( "Enter a value for this field." ),
-    
+  }
   
-    
-  })
+  const Schema = Yup.object().shape({
+
+  email: Yup.string()
+    .matches(/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/, "Invalid email format")
+    .required("Enter a value for this field."),
+});
     const formik = useFormik( {
     initialValues,
     validationSchema: Schema,

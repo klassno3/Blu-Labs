@@ -13,10 +13,13 @@ const Contact = () => {
   const [message,setMessage]=useState("")
    
     const Schema = Yup.object().shape( {
-    firstName: Yup.string().required( "Enter a value for this field." ), 
-   message: Yup.string().required( "Enter a value for this field." ), 
+    firstName: Yup.string().required( "Enter a value for this field." ).min(3, "First name must be at least 3 characters.")
+    .max(50, "First name cannot exceed 50 characters."), 
+   message: Yup.string().required( "Enter a value for this field." ).min(5, "Message must be at least 5 characters."), 
     
-    email: Yup.string().email( "invalid email" ).required( "Enter a value for this field." ),
+   email: Yup.string()
+    .matches(/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/, "Invalid email format")
+    .required("Enter a value for this field."),
     
   
     

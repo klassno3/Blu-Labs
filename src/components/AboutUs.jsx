@@ -57,7 +57,7 @@ const leftCardAnimate = {
     <div className='about max-w-[1440px]   w-11/12 mx-auto '>
         <div
   
-          className='bg-secondary-100 py-10 md:py-16'>
+          className='bg-secondary-100 py-10 md:py-16 lg:pb-16 lg:pt-4'>
           <motion.div
          transition={ { staggerChildren: 0.1 } }
         initial={ "offScreen" }
@@ -73,7 +73,7 @@ const leftCardAnimate = {
         </motion.div>  
         <motion.div
         variants={rightCardAnimate}
-          className="lg:w-1/2  flex flex-col items-start gap-8">
+          className="lg:w-1/2 lg:mt-12 flex flex-col items-start gap-8">
           <div className="flex flex-col items-start gap-3 md:gap-4">
           <h1 className="text-lg uppercase md:text-3xl font-inter font-semibold text-primary-300">About Us</h1>
 
@@ -122,7 +122,7 @@ const leftCardAnimate = {
           once: true, amount:.2
         } }
           className="flex flex-col gap-7 md:gap-10 max-w-[1440px]  w-11/12 mx-auto  lg:flex-row justify-center">
-          <motion.div variants={leftCardAnimate} className="w-full  mx-auto sm:w-3/4 rounded shadow-md bg-secondary-200 p-5 lg:w-1/3">
+          <motion.div variants={leftCardAnimate} className="w-full  mx-auto sm:w-3/4 rounded shadow-md bg-secondary-200 px-6 py-8 lg:w-1/3">
             <div className="flex flex-col gap-2 items-center">
 
           <h3 className="text-lg uppercase md:text-2xl font-inter font-semibold text-primary-300">Vission</h3>
@@ -130,7 +130,7 @@ const leftCardAnimate = {
 To be a leading software development company that delivers innovative and customized solutions to meet the evolving needs of businesses and individuals.           </p>
             </div>
 </motion.div>
-          <motion.div variants={middleCardAnimate} className="w-full  mx-auto sm:w-3/4 rounded shadow-md bg-secondary-200 p-5 lg:w-1/3">
+          <motion.div variants={middleCardAnimate} className="w-full  mx-auto sm:w-3/4 rounded shadow-md bg-secondary-200 px-6 py-8 lg:w-1/3">
             <div className="flex flex-col gap-2 items-center">
 
           <h3 className="text-lg uppercase md:text-2xl font-inter font-semibold text-primary-300">Mission</h3>
@@ -138,12 +138,12 @@ To be a leading software development company that delivers innovative and custom
 Blu Labs PLC is dedicated to providing cutting-edge software development services and solutions to help businesses thrive in the digital era.    </p>
             </div>
 </motion.div>
-          <motion.div variants={ rightCardAnimate} className="w-full  mx-auto sm:w-3/4 rounded shadow-md bg-secondary-200 p-5 lg:w-1/3">
+          <motion.div variants={ rightCardAnimate} className="w-full  mx-auto sm:w-3/4 rounded shadow-md bg-secondary-200 px-6 py-8 lg:w-1/3">
             <div className="flex flex-col gap-2 items-center">
 
           <h3 className="text-lg uppercase md:text-2xl font-inter font-semibold text-primary-300">Value</h3>
               <p className=" text-tertiary-100/80 text-center  font-poppins text-sm lg:text-base ">
-                We embrace creativity and constantly seek innovative solutions to address complex business challenges.We are committed to delivering high-quality software development services that meet the highest industry standards.
+                We embrace creativity and constantly seek innovative solutions to address complex business challenges. We are committed to delivering high-quality software development services.
               </p>
             </div>
 </motion.div>
