@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import Hero from "../images/Business Plan-bro (11).svg"
+import Lottie from "lottie-react";
+import Hero from "../Hero.json"
 import Button from './Button'
 import { motion } from "framer-motion"
 const Home = () => {
@@ -61,7 +62,8 @@ const Home = () => {
         <motion.div
         variants={rightAnimate}
           className="lg:w-1/2 w-full sm:w-3/4 flex items-center mx-auto  justify-center lg:items-end lg:justify-end">
-          <img src={ Hero } alt="" className="w-10/12" />
+          {/* <img src={ Hero } alt="" className="w-10/12" /> */}
+<Lottie animationData={Hero} />
         </motion.div>  
       </div>
     </motion.div>
