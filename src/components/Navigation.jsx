@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import {Link} from 'react-scroll'
 import Logo from '../images/Group.svg'
-import Button from './Button'
+import Button from '../reusable component/Button'
 const Navigation = () => {
 
   const [ isOpen, setIsOpen ] = useState( false );

@@ -1,7 +1,7 @@
 import React from 'react'
 import Lottie from "lottie-react";
 import Hero from "../Hero.json"
-import Button from './Button'
+import Button from '../reusable component/Button'
 import { Link } from 'react-scroll'
 import { motion } from "framer-motion"
 const Home = () => {

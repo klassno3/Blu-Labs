@@ -3,7 +3,7 @@ import Enku from "../images/Enku.jpg"
 import Diy from "../images/Diy.jpg"
 import ISMS from "../images/ISMS.jpg"
 import { motion } from "framer-motion"
-import Button from './Button'
+import Button from '../reusable component/Button'
 
 const Portfolio = () => {
   //scroll animation

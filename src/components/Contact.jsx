@@ -3,9 +3,9 @@ import { useState } from 'react'
 import { useFormik } from "formik";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import Input from './Input';
-import Button  from './Button';
-import TextArea from './TextArea';
+import Input from '../reusable component/Input';
+import Button  from '../reusable component/Button';
+import TextArea from '../reusable component/TextArea';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import {FaMailBulk,FaPhone} from "react-icons/fa"
 import { FaLocationDot } from "react-icons/fa6"

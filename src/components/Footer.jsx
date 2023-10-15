@@ -2,8 +2,8 @@ import { useState } from 'react'
 import { useFormik } from "formik";
 import { Link } from 'react-scroll'
 import * as Yup from 'yup';
-import Input  from './Input'
-import Button from './Button'
+import Input  from '../reusable component/Input'
+import Button from '../reusable component/Button'
 import Logo from '../images/Logo-white.svg'
 import { FaMailBulk, FaPhone } from 'react-icons/fa'
 import { FaLocationDot } from "react-icons/fa6"
