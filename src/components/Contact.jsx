@@ -29,19 +29,18 @@ const Contact = () => {
   } );
 
   const handleSubmit = ( values ) => {
-    // send for to email
+    // send  to email
     emailjs.sendForm( 'service_xlgeonp', 'template_nk3dkjo', form.current, 'Wbrx9VKHYYWcL3mTW' )
-      .then( ( result ) => {
-        alert( "you have successfully submited the form" );
-      // Clear form values
-        formik.resetForm();
+      .then((result) => {
+        // console.log( result.text );
+         formik.resetForm();
         setFirstName( "" );
         setEmail( "" );
         setMessage( "" );
-      } )
-      .catch( ( error ) => {
-        alert( error.text );
+      }, (error) => {
+          // console.log(error.text);
       } );
+    
   }
   
   const formik = useFormik( {
@@ -69,7 +68,7 @@ const Contact = () => {
             </p>
           </div>
           <div className=" text-tertiary-100/90  text-left font-poppins text-sm md:text-base ">
-            <a href="mailto:support@bluelabs.net" target="_blank" rel="noopener noreferrer" className="flex w-max items-center gap-2"><FaMailBulk /><span>support@bluelabs.net</span></a>
+            <a href="mailto:support@blulabs.net" target="_blank" rel="noopener noreferrer" className="flex w-max items-center gap-2"><FaMailBulk /><span>support@blulabs.net</span></a>
             <a href="https://maps.app.goo.gl/R1MexHMnpyXvxq2u8" target="_blank" rel="noopener noreferrer" className="flex w-max items-center gap-2"><FaLocationDot /><span>Bole, sub city, 22 Festival 22 Building, #401</span></a>
             <a href="tel:0908555657" target="_blank" rel="noopener noreferrer" className="flex w-max items-center gap-2"><FaPhone /><span>+251908555657</span></a>
           </div>

@@ -45,9 +45,9 @@ const Footer = () => {
                 Elevate Your Experience: Seamless, Intuitive Software at Your Fingertips!
               </p>
               <div className="flex flex-col gap-2">
-                <a href="mailto:support@bluelabs.net" target="_blank" rel="noopener noreferrer" className="flex w-max items-center gap-2 font-poppins  text-secondary-200">
+                <a href="mailto:support@blulabs.net" target="_blank" rel="noopener noreferrer" className="flex w-max items-center gap-2 font-poppins  text-secondary-200">
                   <FaMailBulk />
-                  <p className="">support@bluelabs.net</p>
+                  <p className="">support@blulabs.net</p>
                 </a>
                 <a
                   href="https://maps.app.goo.gl/R1MexHMnpyXvxq2u8"
