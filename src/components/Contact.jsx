@@ -28,16 +28,16 @@ const Contact = () => {
       .required( "Enter a value for this field." ),
   } );
 
-  const handleSubmit = ( values ) => {
-    // send  to email
+  const handleSubmit = (  ) => {
+    // send users message  to support@blulabs.net
     emailjs.sendForm( 'service_xlgeonp', 'template_nk3dkjo', form.current, 'Wbrx9VKHYYWcL3mTW' )
-      .then((result) => {
+      .then(() => {
         // console.log( result.text );
          formik.resetForm();
         setFirstName( "" );
         setEmail( "" );
         setMessage( "" );
-      }, (error) => {
+      }, () => {
           // console.log(error.text);
       } );
     
