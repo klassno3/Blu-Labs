@@ -76,14 +76,14 @@ const leftCardAnimate = {
                 <p className="text-tertiary-100 text-left font-poppins l text-sm md:text-base ">
                   Blu Labs PLC is a software development company established in November 2022.
                   We have created several web applications, including &nbsp;
-                  <a href='https://enkugifts.pythonanywhere.com'
+                  <a href='https://www.diyethiopia.com'
                     target="_blank"
                     rel="noopener noreferrer"
                     className='text-primary-200 cursor-pointer'>
                     diyethiopia.com, &nbsp;
                   </a>
                   
-                  <a href='https://www.diyethiopia.com'
+                  <a href='https://enkugifts.pythonanywhere.com'
                     target="_blank"
                     rel="noopener noreferrer"
                     className='text-primary-200 cursor-pointer'>
