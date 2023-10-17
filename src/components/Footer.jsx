@@ -59,8 +59,6 @@ const Footer = () => {
                 </a>
                 <a
                   href="tel:0908555657"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="flex  w-max items-center gap-2 font-poppins  text-secondary-200">
                   <FaPhone />
                   <p className="">+251908555657</p>
