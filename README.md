@@ -13,7 +13,7 @@ The following dependencies are used in this project:
 - [lottie-react](https://www.npmjs.com/package/lottie-react): React wrapper for Lottie, a library for rendering After Effects animations.
 
 - [react-multi-carousel](https://www.npmjs.com/package/react-multi-carousel): Carousel component for React.
-- Framer Motion: Animation library for React.
+- [Framer Motion](https://www.framer.com/api/motion/): Animation library for React.
 
 ## Features
 
@@ -44,3 +44,5 @@ The website utilizes the `react-multi-carousel` component to display a testimoni
 ### Animation and Motion
 
 The website incorporates animations and motion effects using the Framer Motion library. Framer Motion provides a simple and powerful way to animate React components, bringing them to life with stunning transitions, gestures, and visual effects.
+Certainly! Here's an updated version of the README file that includes the Framer Motion dependency:
+
