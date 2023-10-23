@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Blu Labs Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Blu Labs website! This is a React-based website that showcases information about our company, services, portfolio, and allows users to contact us through a contact form. It also includes a newsletter sign-up feature in the footer.
 
-## Available Scripts
+## Dependencies
 
-In the project directory, you can run:
+The following dependencies are used in this project:
 
-### `npm start`
+- [React](https://reactjs.org): JavaScript library for building user interfaces.
+- [react-scroll](https://www.npmjs.com/package/react-scroll): Scroll navigation library for React.
+- [Formik](https://formik.org): Form validation library for React.
+- [EmailJS](https://www.emailjs.com): Service for sending emails from JavaScript.
+- [lottie-react](https://www.npmjs.com/package/lottie-react): React wrapper for Lottie, a library for rendering After Effects animations.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [react-multi-carousel](https://www.npmjs.com/package/react-multi-carousel): Carousel component for React.
+- Framer Motion: Animation library for React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+### Navigation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The website includes a scroll navigation feature using the `react-scroll` library. It allows users to navigate to different sections of the website, such as Home, About Us, Contact Us, Our Portfolio, and Services, smoothly by scrolling.
 
-### `npm run build`
+### Contact Form
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Contact Us section utilizes the `Formik` library for form validation. Users can submit their messages by filling out the contact form, which includes fields such as name, email, and message. The form is validated before submission to ensure all required fields are filled and the email format is correct.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Newsletter Sign-up
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The footer includes a newsletter sign-up feature where users can enter their email address to subscribe to our newsletter. The newsletter subscription is handled through the form validation using `Formik` similar to the contact form.
 
-### `npm run eject`
+### EmailJS Integration
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+When a user submits the contact form, the message is sent to the company's email address using the `EmailJS` service. This allows us to receive and respond to user inquiries directly through our email without revealing our email address to potential spammers.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Lottie Animation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The hero section of the website includes an animated SVG using the `lottie-react` library. Lottie allows us to render After Effects animations in our React application, providing an engaging and visually appealing experience for users.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Testimonial Carousel
 
-## Learn More
+The website utilizes the `react-multi-carousel` component to display a testimonial carousel. This component allows us to showcase multiple testimonials in a responsive and interactive carousel format, enhancing the user experience and highlighting positive feedback from our clients.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Animation and Motion
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The website incorporates animations and motion effects using the Framer Motion library. Framer Motion provides a simple and powerful way to animate React components, bringing them to life with stunning transitions, gestures, and visual effects.
