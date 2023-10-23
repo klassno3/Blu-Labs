@@ -43,6 +43,6 @@ The website utilizes the `react-multi-carousel` component to display a testimoni
 
 ### Animation and Motion
 
-The website incorporates animations and motion effects using the Framer Motion library. Framer Motion provides a simple and powerful way to animate React components, bringing them to life with stunning transitions, gestures, and visual effects.
-Certainly! Here's an updated version of the README file that includes the Framer Motion dependency:
+The website incorporates animations and motion effects using the `Framer Motion` library.  `Framer Motion` provides a simple and powerful way to animate React components, bringing them to life with stunning transitions, gestures, and visual effects.
+
 
