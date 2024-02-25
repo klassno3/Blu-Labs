@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import About from "../images/Business Plan-rafiki.svg"
 import {FaEye} from 'react-icons/fa'
+import About from "../images/Business Plan-rafiki.svg"
 import { motion } from "framer-motion"
 const AboutUs = () => {
   const [ isOpen, setIsOpen ] = useState( false );

@@ -14,6 +14,8 @@ const Contact = () => {
   const [ firstName, setFirstName ] = useState( "" )
   const [ email, setEmail ] = useState( "" )
   const [ message, setMessage ] = useState( "" )
+  const [ submitMessage, setSubmitMessage ] = useState( false)
+  
   const form = useRef()
   //form validation 
   const Schema = Yup.object().shape( {
@@ -40,6 +42,11 @@ const Contact = () => {
       }, () => {
           // console.log(error.text);
       } );
+    
+    setSubmitMessage( true );
+     setTimeout(() => {
+    setSubmitMessage(false);
+  }, 3000); 
     
   }
   
@@ -81,10 +88,21 @@ const Contact = () => {
         </div>
 
         <div className="sm:w-3/4  ">
+         
           <form ref={ form } onSubmit={ formik.handleSubmit }>
             <div className="flex flex-col items-start gap-5">
               <h1 className="text-lg uppercase md:text-3xl font-inter font-semibold text-primary-300">Contact us</h1>
-              
+               { submitMessage &&
+            <div className="flex justify-between bg-green-300 font-poppins text-sm md:text-base font-light px-4 py-3 rounded w-full">
+              <span>
+              Your message was submitted!
+
+              </span>
+              <span onClick={()=>setSubmitMessage(false)} className='text-red-700 cursor-pointer'>
+                x
+              </span>
+
+            </div> }
               <Input
                 type="text"
                 label="First Name"
